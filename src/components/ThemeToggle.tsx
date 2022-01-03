@@ -17,7 +17,7 @@ export function ThemeToggle() {
   }
 
   return (
-    <button className='bg-gray-900 dark:bg-gray-200 text-gray-50 dark:text-gray-900 font-medium px-4 py-2 mt-2 mr-2 rounded-md shadow-md uppercase active:translate-y-1 transition ease-out duration-200' onClick={(event) => toggleTheme(event)}>{currentTheme}</button>
+    <button className='bg-gray-900 dark:bg-gray-200 text-gray-50 dark:text-gray-900 font-medium px-4 py-2 sm:mr-4 rounded-md shadow-md uppercase active:translate-y-1 transition ease-out duration-200' onClick={(event) => toggleTheme(event)}>{currentTheme}</button>
   );
 }
 
